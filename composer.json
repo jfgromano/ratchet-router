@@ -1,0 +1,22 @@
+{
+    "name": "jfgromano/websocket-router",
+    "description": "Simple router to control websocket messages using an MVC pattern in php projects",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joao Romano",
+            "email": "felipe.gromano@outlook.com"
+        }
+    ],
+
+    "autoload":{
+        "psr-4": {
+            "JFGRomano\\": "src"
+        }
+    },
+    
+    "require": {
+        "cboden/ratchet": "^0.4.2"
+    }
+}
